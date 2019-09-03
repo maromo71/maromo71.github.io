@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<title>Exemplo com formulários</title>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-3">Exemplo de Formulário</h1>
+        <p class="lead">Usando bootstrap</p>
+    </div>
+</div>
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col-2" style="background-color: cornflowerblue"></div>
+            <div class="col-8">
+                    <div class="form-group">
+                            <label for="exemploEmail">Endereço de Email:</label>
+                            <input type="email" id="exemploEmail" class="form-control" placeholder="e-mail" aria-describedby="helpEmail">
+                            <small id="helpEmail" class="text-muted">Preencher com o email do usuário</small>
+                    </div>
+            </div>
+            <div class="col-2"style="background-color: cornflowerblue"></div>
+        </div>
+        <div class="row">
+                <div class="col-2" style="background-color: cornflowerblue"></div>
+                <div class="col-8">
+                        <div class="form-group">
+                                <label for="exemploSenha">Senha:</label>
+                                <input type="password" id="exemploSenha" class="form-control" placeholder="senha" aria-describedby="helpSenha">
+                                <small id="helpSenha" class="text-muted">Entre com sua senha</small>
+                        </div>
+                </div>
+                <div class="col-2"style="background-color: cornflowerblue"></div>
+        </div>
+        <div class="row">
+                <div class="col-2" style="background-color: cornflowerblue"></div>
+                <div class="col-8">
+                        <div class="form-group">
+                                <label for="exemploArquivo">Selecione o arquivo para upload:</label>
+                                <input type="file" id="exemploArquivo" class="form-control" placeholder="arquivo" aria-describedby="helpArquivo">
+                                <small id="helpArquivo" class="text-muted">Arquivo para envio</small>
+                        </div>
+                </div>
+                <div class="col-2"style="background-color: cornflowerblue"></div>
+        </div>
+        <div class="row">
+                <div class="col-2" style="background-color: cornflowerblue"></div>
+                <div class="col-8">
+                        <div class="form-group">
+                                É aluno ?<input type="checkbox" id="exemploArquivo" aria-describedby="helpAluno">
+                                <small id="helpAluno" class="text-muted">Marcado [sim] Desmarcado [não]</small>
+                        </div>
+                </div>
+                <div class="col-2"style="background-color: cornflowerblue"></div>
+        </div>
+        <div class="row">
+                <div class="col-2" style="background-color: cornflowerblue"></div>
+                <div class="col-8">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="reset" class="btn btn-danger">Limpar</button>
+                </div>
+                <div class="col-2"style="background-color: cornflowerblue"></div>
+        </div>
+    </form> 
+    </div>
+    <p></p>
+    <div class="container">
+            <nav class="navbar fixed-bottom navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Etec</a>
+            </nav>
+    </div>
+   
+    
+    
+</body></html>
+</html>
