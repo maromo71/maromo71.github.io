@@ -2,528 +2,197 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marcos R Moraes (Maromo) - Professor & Desenvolvedor</title>
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos R Moraes (Maromo) - Professor & Desenvolvedor</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <!-- Header / Navigation -->
-  <header id="header">
-    <div class="container header-container">
-      <a href="#hero" class="logo">Maromo<span>.</span></a>
-      <button class="mobile-toggle" id="menuToggle">
-        <i class="fas fa-bars"></i>
-      </button>
-      <ul class="nav-menu" id="navMenu">
-        <li class="nav-item"><a href="#hero" class="nav-link">Início</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
-        <li class="nav-item"><a href="#summary" class="nav-link">Resumo</a></li>
-        <li class="nav-item"><a href="#education" class="nav-link">Formação</a></li>
-        <li class="nav-item"><a href="#experience" class="nav-link">Experiência</a></li>
-        <li class="nav-item"><a href="#portfolio" class="nav-link">Portfólio</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
-      </ul>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <div class="parallax-bg hero-bg"></div>
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h1 class="hero-heading">Marcos R Moraes</h1>
-        <h2 class="hero-subheading">Professor & Desenvolvedor de Software</h2>
-        <p class="hero-description">Professor Mestre em Educação e Especialista em Administração de Sistemas de
-          Informação. Interesse especial na área de educação e pesquisa na área de Tecnologia da Informação.</p>
-        <div class="hero-buttons">
-          <a href="#portfolio" class="btn"
-          style="background-color: transparent; border: 2px solid var(--accent);">Ver Portfólio</a>
-          <a href="#contact" class="btn"
-            style="background-color: transparent; border: 2px solid var(--accent);">Contato</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">MAROMO<span class="dot">.</span></a>
+            <button class="menu-toggle" id="menuToggle">
+                MENU <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="img/maromo.png" alt="Marcos R Moraes" class="profile-image">
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <div class="section-title">
-        <h2>Sobre Mim</h2>
-      </div>
-      <div class="about-container">
-        <div class="about-text">
-          <blockquote class="about-quote">
-            A verdadeira <code>Educação</code> integra o saber formal, encontrado em livros e salas de aula, com as
-            valiosas lições que a vida, o lar e a sociedade nos oferecem. É esse processo que transforma nossas
-            perspectivas e impulsiona o crescimento individual e coletivo.
-          </blockquote>
-          <div class="about-info">
-            <div class="info-item">
-              <i class="fas fa-user"></i>
-              <p>Nome: Marcos Roberto de Moraes [Maromo]</p>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="greeting">Olá, eu sou o Marcos,</span>
+                <h1 class="main-title">PROFESSOR<br>& DEV</h1>
+                <p class="hero-description">
+                    Transformando conhecimento em código e estudantes em profissionais.
+                    Mestre em Educação e Especialista em Sistemas de Informação.
+                </p>
+                <a href="#contact" class="btn btn-pill">FALE COMIGO <i class="fas fa-arrow-right"></i></a>
             </div>
-            <div class="info-item">
-              <i class="fas fa-calendar"></i>
-              <p>Nascimento: Ago 1971 (53 anos)</p>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-graduation-cap"></i>
-              <p>Formação: Mestre em Educação</p>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <p>Localização: Mogi Mirim, SP - BRASIL</p>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-globe"></i>
-              <p>Website: <a href="https://maromo71.github.io/" target="_blank">maromo71.github.io/</a></p>
-            </div>
-            <div class="info-item">
-              <i class="fas fa-envelope"></i>
-              <p>Email: <a href="mailto:memaromo@outlook.com">memaromo@outlook.com</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="skills">
-    <div class="container">
-      <div class="section-title">
-        <h2>Habilidades Técnicas</h2>
-      </div>
-      <div class="skills-container">
-        <p class="skills-intro">
-          "Um bom desenvolvedor precisa saber analisar um problema, seu contexto e ao mesmo tempo considerar as
-          necessidades do usuário para desenvolver as melhores soluções..."
-        </p>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>HTML</h4>
-              <span>100%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="100"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>CSS</h4>
-              <span>90%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="90"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>JavaScript</h4>
-              <span>75%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="75"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>Java</h4>
-              <span>98%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="98"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>Flutter UI</h4>
-              <span>67%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="67"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>PHP</h4>
-              <span>90%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="90"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>Linguagem C</h4>
-              <span>98%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="98"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>C#</h4>
-              <span>80%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="80"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>Dart</h4>
-              <span>75%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="75"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>Spring Boot</h4>
-              <span>95%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="75"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-name">
-              <h4>Spring Rest API</h4>
-              <span>95%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" data-width="75"></div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Summary Section -->
-  <section id="summary" class="summary">
-    <div class="container">
-      <div class="section-title">
-        <h2>Resumo & Visão</h2>
-      </div>
-      <div class="summary-container">
-        <p class="summary-text">
-          Visão Educacional e Tecnológica: Encaro a tecnologia da informação e comunicação como uma ferramenta essencial para impulsionar a educação. Sua integração inteligente pode tornar o aprendizado mais dinâmico, acessível e preparar os estudantes para os desafios e oportunidades da sociedade conectada.
-        </p>
-        <p class="summary-professional">
-          Resumo Profissional: 
-          Como professor na área de tecnologia há mais de 25 anos, com atuação nos ensinos Técnico, Tecnológico e de Engenharia, minha missão é aplicar inovações tecnológicas ao processo educacional, desenvolvendo as competências do futuro.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section id="education" class="education">
-    <div class="container">
-      <div class="section-title">
-        <h2>Formação Acadêmica</h2>
-      </div>
-      <div class="education-timeline">
-        <div class="education-item">
-          <div class="education-content">
-            <span class="education-date">2008 - 2009</span>
-            <h3 class="education-title">Mestre em Educação</h3>
-            <p class="education-place">Unisal, Americana, SP</p>
-            <div class="education-details">
-              <p><strong>Título:</strong> 
-                <br> Limites e possibilidades do trabalho educativo voltado ao atendimento de pessoas com deficiência: inclusão no mercado, realidade capitalista e o Projeto Asas de uma ONG da cidade de Mogi Mirim - SP, 
-                <br><strong>Ano de Obtenção: </strong>2009.
-                <br> <strong>Orientador:</strong>
-                Dr. Marcos Francisco Martins. 
-                <br><strong>Palavras-chave:</strong>Terceiro setor; Práxis comunitária; Práxis social; Educação sócio-comunitária.</p>
-            </div>
-          </div>
-        </div>
-        <div class="education-item">
-          <div class="education-content">
-            <span class="education-date">2004 - 2005</span>
-            <h3 class="education-title">Especialização em Administração de Sistemas de Informação</h3>
-            <p class="education-place">UFLA, Lavras, MG - Universidade Federal de Lavras, Lavras, MG</p>
-            <div class="education-details">
-              <p><strong>Título do trabalho:</strong>
-                <br>Escola Técnica Estadual PFA: Análise de sua estrutura administrativa e seus sistemas de informação</p>
-            </div>
-          </div>
-        </div>
-        <div class="education-item">
-          <div class="education-content">
-            <span class="education-date">1999</span>
-            <h3 class="education-title">Programa Especial de Formação Pedagógica</h3>
-            <p class="education-place">Unimep, Piracicaba, SP</p>
-            <div class="education-details">
-              <p>Esquema 1 - programa de formação pedagógica de caráter emergencial e complementar — destinado a profissionais graduados que precisam de habilitação docente para atuar no ensino técnico de nível médio.</p>
-            </div>
-          </div>
-          <div class="education-item">
-            <div class="education-content">
-              <span class="education-date">1995</span>
-              <h3 class="education-title">Tecnólogo em Processamento de Dados</h3>
-              <p class="education-place">Unipinhal, Espírito Santo do Pinhal, SP</p>
-              <div class="education-details">
-                <p>Capacitação profissional para projetar, desenvolver e manter softwares aplicativos, além de compreender infraestrutura e processos de comunicação e processamento de dados.</p>
-              </div>
+            <div class="hero-image-container">
+                <div class="image-arch">
+                    <img src="img/maromo_new.png" alt="Marcos R Moraes">
+                </div>
             </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience Section -->
-  <section id="experience" class="experience">
-    <div class="container">
-      <div class="section-title">
-        <h2>Experiência Profissional</h2>
-      </div>
-      <div class="experience-container">
-        <div class="experience-item">
-          <span class="experience-date">2009 - Atual</span>
-          <h3 class="experience-title">Professor de Ensino Superior (Tecnologia)</h3>
-          <p class="experience-company">Fatec, Mogi Mirim - SP</p>
-          <div class="experience-description">
-            <p>Disciplinas: Programação em Microinformática, Técnicas de Programação, Linguagem de Programação,
-              Programação Orientada a Objetos.</p>
-          </div>
+    </section>
+    <section id="skills" class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Anos de Experiência</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Java & C</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">95%</span>
+                    <span class="stat-label">Spring Boot</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Ensino & Didática</span>
+                </div>
+            </div>
         </div>
-        <div class="experience-item">
-          <span class="experience-date">2007 - Atual</span>
-          <h3 class="experience-title">Professor de Ensino Superior (Engenharia)</h3>
-          <p class="experience-company">Faculdade Santa Lúcia, Mogi Mirim - SP</p>
-          <div class="experience-description">
-            <p>Disciplinas: Laboratório de Programação, Técnicas de Programação, Sistemas Distribuídos, Programação para
-              dispositivos móveis.</p>
-          </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-heading">UMA ABORDAGEM<br>EDUCACIONAL</h2>
+                <div class="about-text-block">
+                    <p class="quote">
+                        "A verdadeira Educação integra o saber formal com as lições da vida."
+                    </p>
+                    <p>
+                        Como professor e desenvolvedor, minha missão é aplicar inovações tecnológicas ao
+                        processo educacional.
+                        Atuo no ensino Técnico, Tecnológico e de Engenharia, preparando a próxima geração de
+                        devs.
+                    </p>
+
+                    <div class="education-mini-list">
+                        <div class="edu-item">
+                            <span class="edu-year">2009</span>
+                            <div class="edu-info">
+                                <strong>Mestre em Educação</strong>
+                                <span>Unisal</span>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-year">2005</span>
+                            <div class="edu-info">
+                                <strong>Esp. Sistemas de Informação</strong>
+                                <span>UFLA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="experience-item">
-          <span class="experience-date">1999 - Atual</span>
-          <h3 class="experience-title">Professor de Ensino Médio Técnico</h3>
-          <p class="experience-company">Etec de Mogi Mirim, Mogi Mirim - SP</p>
-          <div class="experience-description">
-            <p>Cursos/Área: Desenvolvimento de Sistemas, Técnico em Informática para Web, Disciplinas da área de
-              informática.</p>
-          </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-heading">PROJETOS & LIVROS</h2>
+
+            <!-- Static Portfolio Items -->
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <img src="img/portfolio/portfolio02.png" alt="Livro Java">
+                    </div>
+                    <div class="card-info">
+                        <h3>Desmistificando Java</h3>
+                        <p>Livro: Uma Abordagem Prática</p>
+                        <a href="https://hotmart.com/pt-br/marketplace/produtos/desmistificando-java/K90539043C"
+                            target="_blank" class="link-arrow">Ver Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <img src="img/portfolio/portfolio03.png" alt="Livro Algoritmos">
+                    </div>
+                    <div class="card-info">
+                        <h3>Fundamentos</h3>
+                        <p>Livro: Lógica e Programação</p>
+                        <a href="https://github.com/maromo71/algoritmos/blob/master/apostilas/Livro_Fundamentos_Programacao.pdf"
+                            target="_blank" class="link-arrow">Ver Mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic GitHub Projects -->
+            <div class="github-section">
+                <h3>Repositórios GitHub</h3>
+                <ul id="projects" class="project-list-simple">
+                    <!-- Populated by main.js -->
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <div class="section-title">
-        <h2>Portfólio & Publicações</h2>
-      </div>
-      <div class="portfolio-container">
-        <p class="portfolio-intro">Projetos e Livros do Professor</p>
-        <div class="portfolio-grid">
-          <div class="portfolio-item">
-            <img src="img/portfolio/portfolio01.png" alt="GitHub" class="portfolio-img">
-            <div class="portfolio-content">
-              <h3 class="portfolio-title">GitHub do Maromo</h3>
-              <p class="portfolio-description">Repositórios e projetos de código</p>
-              <a href="https:github.com/maromo71" target="_blank" class="btn">Acessar</a>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h2>VAMOS CONVERSAR?</h2>
+                    <p>Estou disponível para palestras, aulas e projetos de desenvolvimento.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:memaromo@outlook.com" class="contact-link">memaromo@outlook.com</a>
+                    <a href="https://maromo71.github.io/" target="_blank" class="contact-link">maromo71.github.io</a>
+                    <span class="contact-link">Mogi Mirim, SP</span>
+                </div>
             </div>
-          </div>
-          <div class="portfolio-item">
-            <img src="img/portfolio/portfolio02.png" alt="Livro Java" class="portfolio-img">
-            <div class="portfolio-content">
-              <h3 class="portfolio-title">Desmistificando Java</h3>
-              <p class="portfolio-description">Uma Abordagem Prática</p>
-              <a href="https://hotmart.com/pt-br/marketplace/produtos/desmistificando-java/K90539043C" class="btn">Saiba Mais</a>
-            </div>
-          </div>
-          <div class="portfolio-item">
-            <img src="img/portfolio/portfolio03.png" alt="Livro Algoritmos" class="portfolio-img">
-            <div class="portfolio-content">
-              <h3 class="portfolio-title">Fundamentos</h3>
-              <p class="portfolio-description">da Lógica e da Programação</p>
-              <a href="https://github.com/maromo71/algoritmos/blob/master/apostilas/Livro_Fundamentos_Programacao.pdf" class="btn">Saiba Mais</a>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <div class="section-title">
-        <h2>Contato</h2>
-      </div>
-      <div class="contact-container">
-        <div class="contact-info">
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <div class="contact-text">
-              <h4>Localização</h4>
-              <p>Mogi Mirim, SP - Brasil</p>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="contact-text">
-              <h4>Email</h4>
-              <a href="mailto:memaromo@outlook.com">memaromo@outlook.com</a>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-phone"></i>
-            </div>
-            <div class="contact-text">
-              <h4>Telefone</h4>
-              <p>(19) 99606-9019</p>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-icon">
-              <i class="fas fa-globe"></i>
-            </div>
-            <div class="contact-text">
-              <h4>Website</h4>
-              <a href="https://maromo71.github.io/" target="_blank">maromo71.github.io/</a>
-            </div>
-          </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Marcos R Moraes. Todos os direitos reservados.</p>
         </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p class="footer-text">&copy; 2025 Marcos R Moraes (Maromo). Todos os direitos reservados.</p>
-    </div>
-  </footer>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        // Simple Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
 
-  <!-- Scroll to Top Button -->
-  <div class="scroll-top" id="scrollTop">
-    <i class="fas fa-arrow-up"></i>
-  </div>
-
-  <script>
-    // Smooth Scrolling for Navigation Links
-    document.addEventListener('DOMContentLoaded', function () {
-      const navLinks = document.querySelectorAll('.nav-link');
-
-      for (const link of navLinks) {
-        link.addEventListener('click', function (e) {
-          e.preventDefault();
-
-          const targetId = this.getAttribute('href');
-          const targetSection = document.querySelector(targetId);
-
-          window.scrollTo({
-            top: targetSection.offsetTop - 70,
-            behavior: 'smooth'
-          });
-
-          // Close mobile menu if open
-          if (navMenu.classList.contains('active')) {
-            navMenu.classList.remove('active');
-          }
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
         });
-      }
 
-      // Header Scroll Effect
-      const header = document.getElementById('header');
-
-      window.addEventListener('scroll', function () {
-        if (window.scrollY > 50) {
-          header.classList.add('sticky');
-        } else {
-          header.classList.remove('sticky');
-        }
-      });
-
-      // Mobile Menu Toggle
-      const menuToggle = document.getElementById('menuToggle');
-      const navMenu = document.getElementById('navMenu');
-
-      menuToggle.addEventListener('click', function () {
-        navMenu.classList.toggle('active');
-      });
-
-      // Scroll to Top Button
-      const scrollTop = document.getElementById('scrollTop');
-
-      window.addEventListener('scroll', function () {
-        if (window.scrollY > 500) {
-          scrollTop.classList.add('active');
-        } else {
-          scrollTop.classList.remove('active');
-        }
-      });
-
-      scrollTop.addEventListener('click', function () {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
         });
-      });
+    </script>
+</body>
 
-      // Animate Skill Bars on Scroll
-      const skillBars = document.querySelectorAll('.skill-progress');
-
-      function animateSkills() {
-        skillBars.forEach(bar => {
-          const width = bar.getAttribute('data-width');
-          bar.style.width = width + '%';
-        });
-      }
-
-      // Use Intersection Observer to detect when skills section is visible
-      const skillsSection = document.querySelector('#skills');
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            animateSkills();
-          }
-        });
-      }, { threshold: 0.1 });
-
-      if (skillsSection) {
-        observer.observe(skillsSection);
-      }
-
-      // Parallax effect for background image
-      document.addEventListener('scroll', function () {
-        const scrollPosition = window.pageYOffset;
-        const heroBg = document.querySelector('.hero-bg');
-
-        if (heroBg) {
-          // Adjust the speed by changing the division factor
-          heroBg.style.transform = `translateY(${scrollPosition * 0.4}px)`;
-        }
-      });
-    });
-  </script>
+</html>
